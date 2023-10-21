@@ -4,9 +4,10 @@ on:
   pull_request:
     branches:
       - main
-  push:
-    branches-ignore:
-      - main
+# For now, we are not going to run just because we pushed any branch
+#  push:
+#    branches-ignore:
+#      - main
 
 jobs:
   lint:
